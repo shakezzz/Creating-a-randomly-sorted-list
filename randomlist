@@ -1,0 +1,7 @@
+ #Creates a Sorted List (Test Case 3)
+sort1 =[]
+for num in range(200):
+    sort1.append(num)
+print(sort1)
+reversed_list = sort1[::-1]
+print (reversed_list)
